@@ -10,5 +10,5 @@
       3. Total params: 12122
     #### 3rd attempt ####
       1. Used 8 channels in first layer and 16 in the rest
-      2. Max Accuracy = 99.46 within 20 Epochs
-      3. Total params: 12122
+      2. Max Accuracy = 99.43 within 20 Epochs
+      3. Total params: 10,874
