@@ -12,3 +12,16 @@
       1. Used 8 channels in first layer and 16 in the rest
       2. Max Accuracy = 99.43 within 20 Epochs
       3. Total params: 10,874
+    #### 4th attempt ####
+      1. Used 8 channels in first layer and 16 in the rest
+      2. Max Accuracy = 99.41 within 20 Epochs
+      3. Total params: 10,874
+      4. Moved BN after RelU
+      5. Training accurac
+    #### 5th attempt ####
+      1. Used 8 channels in first 2 layers
+      2. Introduced Dropout as there was large delta between Training Accuracy and Test Accuracy
+      2. Max Accuracy = 99.46 within 20 Epochs
+      3. Total params: 9122
+      
+    
