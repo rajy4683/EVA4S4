@@ -20,7 +20,8 @@
       5. Training accurac
     #### 5th attempt ####
       1. Used 8 channels in first 2 layers
-      2. Introduced Dropout as there was large delta between Training Accuracy and Test Accuracy
+      2. Introduced Dropout after major Conv layers, as there was large delta between Training Accuracy and Test Accuracy
+      3. Changed overall model to use nn.Sequential functions
       2. Max Accuracy = 99.46 within 20 Epochs
       3. Total params: 9122
       
